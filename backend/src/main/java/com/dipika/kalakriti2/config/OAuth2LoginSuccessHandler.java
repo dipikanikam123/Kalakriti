@@ -56,7 +56,7 @@ public class OAuth2LoginSuccessHandler extends SimpleUrlAuthenticationSuccessHan
         String returnTo = request.getParameter("returnTo");
         
         // Build redirect URL
-        String redirectUrl = "http://localhost:5173/login?token=" + token;
+        String redirectUrl = "https://kalakritiii.vercel.app/login?token=" + token;
         if (returnTo != null && !returnTo.isEmpty()) {
             redirectUrl += "&returnTo=" + returnTo;
         }
