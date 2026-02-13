@@ -1,0 +1,20 @@
+@font-face {
+    font-family: stylish;
+    src: url("./fonts/LOKICOLA.TTF");
+}
+
+@font-face {
+    font-family: simple;
+    src: url("./fonts/simple.ttf");
+}
+
+body{
+    font-family:simple;
+    overflow-x: hidden;
+}
+
+.stylish-font{
+    font-family:stylish ;
+}
+
+
