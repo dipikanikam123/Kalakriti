@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/api", // Adjust if your backend port is different
+  baseURL: "https://disgusted-fiann-kalakriti-33a27ac5.koyeb.app/api", // Adjust if your backend port is different
 });
 
 // Request Interceptor: Attach Token
