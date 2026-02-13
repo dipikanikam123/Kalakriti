@@ -62,7 +62,7 @@ const Login = () => {
     const returnTo = params.get("returnTo");
 
     // Build OAuth URL with returnTo parameter if it exists
-    let oauthUrl = "http://localhost:8080/oauth2/authorization/google";
+    let oauthUrl = "https://disgusted-fiann-kalakriti-33a27ac5.koyeb.app/oauth2/authorization/google";
     if (returnTo) {
       oauthUrl += `?returnTo=${encodeURIComponent(returnTo)}`;
     }
